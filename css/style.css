@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+
+
+
+/*--Footer--*/
+
+#footer {
+    background-color: #e2e2e2;
+}
+
+#footer h3 {
+    margin-top: 14px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.social-media li a i {
+    margin-top: 20px;
+    color: #70a5d1;
+    font-size: 20px;
+    padding: 0 12px;
+}
