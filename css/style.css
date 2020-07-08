@@ -9,7 +9,7 @@
     width: 100%;
  }
 
- .headintro{
+ .headintro {
     font-family: "Varela Round", sans-serif;
     position: absolute;
     top: 400px; 
@@ -18,7 +18,7 @@
     color: #fafafa;
  }
 
- .headintro2{
+ .headintro2 {
     font-family: "Varela Round", sans-serif;
     position: absolute;
     top: 450px; 
@@ -27,18 +27,17 @@
     color: #cecccc;
  }
 
- .headbkimg{
+ .headbkimg {
     position: relative;
     text-align: center;
  }
 
-.meprofile{
+.meprofile {
     height: 300px;
     width: 300px;
-    border-radius: 50%;
 }
 
- .imagesize{
+.imagesize {
      padding: 0px;
  }
 
