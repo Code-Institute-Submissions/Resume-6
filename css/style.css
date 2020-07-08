@@ -7,12 +7,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    position: relative;
  }
 
  .headintro {
     font-family: "Varela Round", sans-serif;
     position: absolute;
-    top: 400px; 
+    top: 475px; 
     left: 0; 
     width: 100%;
     color: #fafafa;
@@ -21,7 +22,7 @@
  .headintro2 {
     font-family: "Varela Round", sans-serif;
     position: absolute;
-    top: 450px; 
+    top: 525px; 
     left: 0; 
     width: 100%;
     color: #cecccc;
@@ -32,10 +33,13 @@
     text-align: center;
  }
 
-.meprofile {
-    height: 300px;
-    width: 300px;
+.over-img {
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    border-radius: 50%;
 }
+
 
 .imagesize {
      padding: 0px;
