@@ -10,6 +10,7 @@
     position: relative;
  }
 
+
  .headintro {
     font-family: "Varela Round", sans-serif;
     position: absolute;
@@ -17,15 +18,17 @@
     left: 0; 
     width: 100%;
     color: #fafafa;
+    text-align: center;
  }
 
  .headintro2 {
     font-family: "Varela Round", sans-serif;
-    position: absolute;
+    position: relative;
     top: 525px; 
     left: 0; 
     width: 100%;
     color: #cecccc;
+    text-align: center;
  }
 
  .headbkimg {
@@ -35,9 +38,11 @@
 
 .over-img {
     position: absolute;
-    top: 20%;
-    left: 43%;
+    top: 30%;
+    left: 50%;
     border-radius: 50%;
+    height: 300px;
+    width: 300px;
 }
 
 
