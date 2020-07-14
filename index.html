@@ -10,8 +10,7 @@
     <title>My Resume</title>
 </head>
 <body>
-
- <nav class="navbar navbar-expand-lg navbar-light bg-custom-white">
+ <nav class="navbar navbar-expand-lg navbar-light bg-custom-white fixed-top">
         <a class="navbar-brand" href="index.html">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -44,8 +43,10 @@
             </ul>
         </div>
     </nav>
+
     <!--End Navigation Element-->
-    <section class="section-full main-img">
+
+    <section class="section-full main-img" id="home">
         <div class="container vertical-center">
             <div class="jumbotron custom-jumbotron">
                 <div class="row">
@@ -68,80 +69,33 @@
 
 
 
-    <!--<header>
-       <nav class="navbar navbar-expand-lg navbar-light bg-custom-white">
-        <a class="navbar-brand" href="index.html">
-        <h2> Jonathan Aldsworth </h2>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-
-                    </a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#work">WORK</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#hobbies">HOBBIES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-    </nav> 
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 bckimg">
-                    <img src="images/itbk.jpg" alt="code background" class="main-image">
-                </div>
-            </div>                  
-        </div>
-    </section>
-    </header> -->
-
     <section id="about">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2 class="h1-respsonsive my-5">ABOUT</h2>
+                    <h1 class="h1-respsonsive my-5">ABOUT</h1>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 text-center">
-                    <h3>Hi, I'm Jonathan Aldsworth </h3>
+                <div class="col-lg-6 text-center">
+                    <h3>Hi, I'm Jonathan Aldsworth! </h3>
                     <br>
                     <p>
-                    "Hi I am Jonathan Aldsworth. I am a full stack web development student with code institute
+                    "Hi I am Jonathan Aldsworth. I am a Full Stack Web Development student with The Code Institute!"
                     </p>
                     <br>
                     <ul>
                         <li>
                             <i class="fa fa-envelope-o infoicon" aria-hidden="true"></i>
-                            <h4 class="info">Email :</h4>
-                            <p class="info2"> Jon.aldsworth@gmail.com</p>
+                            <a class="link" href="Jon.aldsworth@gmail.com"><h4 class="info">Email :</h4>
+                            <p class="info2"> Jon.aldsworth@gmail.com</p></a>
                         </li>
                         <li>
                             <i class="fa fa-phone infoicon" aria-hidden="true"></i>
-                            <h4 class="info">Phone :</h4>
-                            <p class="info2"> 07595289986</p>
+                            <a class="link" href="07595289986"><h4 class="info">Phone :</h4>
+                            <p class="info2"> 07595289986</p></a>
                         </li>
                         <li>
                             <i class="fa fa-calendar infoicon" aria-hidden="true"></i>
@@ -156,7 +110,7 @@
                 
                     </ul>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+                <div class="col-lg-6">
                   <div class="progress">
                             <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
                                 <span class="sr-only">90% complete</span>
@@ -190,23 +144,23 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2 class="h1-respsonsive my-5">WORK</h2>
+                    <h1 class="h1-respsonsive my-5">WORK</h1>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-                    <p class="ml-5 text-right careertext"> "Before starting my career change I started my own business as a bathroom and kitchen installer. 
-                         I have built my self an amazing reputaion with my knowledge of plumbing and building work finished 
-                         off with a high standard of work and attention to detail. its been an amazing achievement but coding 
+                <div class="col-md-6">
+                    <p class=" text-center careertext"> "Before starting my career change I started my own business as a bathroom and kitchen installer. 
+                         I have built my self an amazing reputation with my knowledge of plumbing and building work finished 
+                         off with a high standard of work and attention to detail. It's been an amazing achievement but coding 
                          has always been something that I've want to learn and make a carrier from."</p>
-                         <img src="images/codingpic.jpg" alt="work image" class="career-image shadow-lg p-3 mb-5 bg-white rounded ml-auto d-block">
+                         <img src="images/codingpic.jpg" alt="work image" class="career-image shadow-lg p-3 mb-5 bg-white rounded mx-auto d-block">
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-                <img src="images/workimg.jpg" alt="work image" class="work-image shadow-lg p-3 mb-5 bg-white rounded">
-                    <p class="worktext"> "Coding is something I've always had a play with time to time in sofware and html 
-                    so as a career it is something I'm very excited about. studying all aspects of web devlopment has been 
+                <div class="col-md-6">
+                <img src="images/workimg.jpg" alt="work image" class="work-image shadow-lg p-3 mb-5 bg-white rounded mx-auto d-block">
+                    <p class="worktext text-center"> "Coding is something I've always had a play with time to time in sofware and html 
+                    so as a career it is something I'm very excited about. Studying all aspects of web devlopment has been 
                     enjoyably challenging and feeling excited with moving forward as a career."</p>
                 </div>
             </div>
@@ -215,31 +169,35 @@
     </section>
 
     <section id="hobbies">
-    <div class="container-fluid">
+    <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2 class="h1-respsonsive my-5">HOBBIES</h2>
+                    <h1 class="h1-respsonsive my-5">HOBBIES</h1>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                <div class="col-lg-4">
                 <p> "I fly large scale model air crafts such as planes and helicopters
-                and achived my B licence in fix wing and A licence in helicopters. building
-                them has been just as fun as it has been flying them down my local club.</p>
+                and achieved my B licence in fix-wing and A licence in helicopters. Building
+                them has been just as fun as it has been flying them down my local club."</p>
                 <img src="images/plane.jpg" alt="plane image" class="hobbie-image mx-auto d-block shadow-lg p-3 mb-5 bg-white rounded">
+                <hr>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                <div class="col-lg-4">
                 <img src="images/travel.jpg" alt="travel image" class="hobbie-image mx-auto d-block shadow-lg p-3 mb-5 bg-white rounded">
-                <p> "travelling around the UK in my converted van has been amazing, finding great places
-                to kayak, surf or just a long wall and camping the night is an amazing experiance. A goal
-                is to be able to travel and work off grid doing coding is a dream that I hope to do one day.</p>
-                
+                <p> "Travelling around the UK in my converted van has been amazing, finding great new places
+                to kayak, surf or just a long walk and camping the night is an amazing experience. My goal
+                is to be able to fully convert the van so I can travel and work off grid doing coding, this is a dream 
+                that I hope to do one day."</p>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
-                <p> "so lastly I have picked up amazing machical and problem solving skills from building engine since a kid and found my love for vw's after passing my licence at 17 and my first car being a vw mk2 jetta and from that owning many many older vw's. 
-                last one being my vw mk2 golf with a audi s4 engine in fully restored to factory standard.</p>
+                <div class="col-lg-4">
+                <hr>
+                <p> "I have amazing mechanical and problem solving skills from building engines 
+                from a young age. I found my love for VW's after passing my licence at 17 and my first car being a VW MK2 
+                Jetta, from that owning many many older VW's. Last one being my VW MK2 Golf with a Audi S4 engine in 
+                fully restored to factory standard."</p>
                 <img src="images/car.jpg" alt="car image" class="hobbie-image mx-auto d-block shadow-lg p-3 mb-5 bg-white rounded">
                 </div>
             </div>
@@ -247,14 +205,14 @@
     </section>
 
     <section id="contact">
-    <div class="container-fluid">
+    <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2 class="h1-respsonsive my-5">CONTACT</h2>
+                    <h1 class="h1-respsonsive my-5">CONTACT</h1>
                 </div>
             </div>
         </div>
-    <div class="container-fluid">
+    <div class="container">
             <div class="row">
                <form class="col-12">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Full Name" required />
@@ -274,7 +232,7 @@
     </section>
 
     <footer id="footer">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center">
                     <h3>Jonathan Aldsworth</h3>

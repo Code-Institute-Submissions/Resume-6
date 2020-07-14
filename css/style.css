@@ -117,6 +117,10 @@ ul {
     font-size: 25px;
 }
 
+.link{
+    color: #080808;
+}
+
 .progress {
     position: relative;
     height: 20px;
@@ -156,12 +160,10 @@ ul {
 
 .careertext {
     margin-top: 50px;
-    padding-left: 100px;
 }
 
 .worktext{
     margin-bottom: 50px;
-    padding-right: 120px;
 }
 
 
@@ -171,8 +173,8 @@ ul {
 .hobbie-image {
     width: 250px;
     height: 250px;
-    margin-bottom: 50px;
 }
+
 
 /*--CONTACT--*/
 #contact{
