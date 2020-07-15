@@ -1,39 +1,85 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# My Resume
 
-Welcome jonathanuk84,
+[Github Pages]( https://jonathanuk84.github.io/Resume/.)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+[Github repository](https://github.com/jonathanuk84/Resume)
 
-## Gitpod Reminders
+# Description
+Few paragraphs to describe your project
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# UX
+What is the user experience of the page, what it is for. 
 
-`python3 -m http.server`
+# User Stories
+Who would use the page and why, how effective is it. 
 
-A blue button should appear to click: *Make Public*,
+# Wireframe
+- [Figma](https://www.figma.com/file/MQpvMBvXZ2Xhp8LNNiGMO6/Untitled?node-id=0%3A1)
 
-Another blue button should appear to click: *Open Browser*.
+# Features
+Cover each section of the page and its purpose.
+- include anything you wanted to add but weren't able to. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Design
+images/colour schemes etc.
 
-A blue button should appear to click: *Make Public*,
+# Testing 
+- [Chrome Inspect Dev Tools](https://www.google.com/chrome/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [HTML Validator](https://validator.w3.org/)
+- [Am I Responsive](http://ami.responsivedesign.is/)
 
-Another blue button should appear to click: *Open Browser*.
+- Checked all links work correctly
+- Navbar scrolls to the correct part of the page
+- Post code in peer review on slack
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+# Technologies used
+- HTML
+- CSS 
+- Bootstrap
+-
+-
+-
+-
+-
+-
+-
+- [HTML formatter](https://www.freeformatter.com/html-formatter.html#ad-output)
 
-## Updates Since The Instructional Video
+# Deployment and Demo 
+The project is hosted on GitHub Pages
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+The process involved:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Host a git repository on GitHub.
+- Create project in GitPod saving each big change for version control to GitHub.
+- Open your project repository in GitHub.
+- Click on settings.
+- Scroll down to the GitHub Pages section.
+- Click on source and select master branch.
+- After the page refreshes you will have a link to your deployed website.
+- Final product now hosted on GitHub Pages.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+To deploy your own version of the website:
+- Have git installed
+- Visit the repository
+- Click 'Clone or download' and copy the code for http
+- Open your chosen IDE (Cloud9, VS Code, etc.)
+- Open a terminal in your root directory
+- Type 'git clone ' followed by the code taken from github repository
+- When this completes you have your own version of the website
+- Feel free to make any changes to it
+- The website can be run by opening one of the HTML files within a web browser
+- Visit the link provided
+- Your website with any made changes will appear
+- Saved changes to the website will appear here after refreshing the page
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
+It may take a moment for changes to appear on the hosted website.
+During development the site is written in VS Code. It is run using Live Server plugin for VS Code.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Credits 
+Where images came from
 
---------
-
-Happy coding!
+# Acknowlegements 
+ 
