@@ -21,6 +21,15 @@ in HTML and CSS so far.
 # User Stories
 The main user for this site would be an employer looking to hire a Junior Web Developer.
 
+Employers can see:
+
+- Details about myself.
+
+- The skills I've currently achieved.
+- My what I have achieved in my last line of work.
+- What I'm want to achieved in my career change.
+- My interests and hobbies that show my skills. 
+- Can contact me for further information.
 
 # Wireframe
 
