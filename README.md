@@ -8,9 +8,9 @@ The page has been designed to exhibit my skills in HTML and CSS that I have lear
 
 Links below to my GitHub Pages and Github Repository:
 
-[Github Pages](https://jonathanuk84.github.io/Resume/.)
+- [Github Pages](https://jonathanuk84.github.io/Resume/.)
 
-[Github repository](https://github.com/jonathanuk84/Resume)
+- [Github Repository](https://github.com/jonathanuk84/Resume)
 
 ![AmIResponsive](READMEimages/AmIResponsive.PNG)
 
@@ -19,10 +19,26 @@ This website has been designed to act as an online resume in the future when I a
 in HTML and CSS so far.
 
 # User Stories
-The main user for this site would be an employer looking to hire a Junior Web Developer 
+The main user for this site would be an employer looking to hire a Junior Web Developer.
+
 
 # Wireframe
-- [Figma](https://www.figma.com/file/MQpvMBvXZ2Xhp8LNNiGMO6/Untitled?node-id=0%3A1)
+
+I desigined my site wireframe using Figma, please see link and screenshots below of my final draft. . 
+
+[Figma - Click here to view my wireframe](https://www.figma.com/file/MQpvMBvXZ2Xhp8LNNiGMO6/Untitled?node-id=0%3A1)
+
+![Figma1](READMEimages/Figma1.PNG)
+![Figma2](READMEimages/Figma2.PNG)
+![Figma3](READMEimages/Figma3.PNG)
+
+My final product website has turned out exactly as planned with only 
+a few little changes:
+
+1.  The top navbar is now fixed at the top to ensure ease of navigation from all points on the page.
+1.  The email/phone/location details in the contact section, as these are already displayed in the top about me section, felt it was unesseccary to repeat these items.
+1.  I changed the colour scheme as the hobbies section in my initial draft stood out too much, I decided to go for a more clean and modern mix of white and light grey
+alternating per each section for defintition and seperation. 
 
 # Features
 - **Home** - The background picture is a high-res coding image, overlayed with a portrait of myself introducing my name and future proffesion to potential employers 
@@ -37,43 +53,51 @@ main hobbies, all of which show my commitment and persiverance.
 
 # Technologies used
 - [HTML(Hyper Text Markup Language)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-
+    * For Structure.
 - [CSS(Cascading Style Sheets)](https://www.w3.org/Style/CSS/Overview.en.html)
-
+    * For Styling 
 - [Bootstrap](https://getbootstrap.com/)
-
+    * For HTML and CSS framework
 - [Font Awesome](https://fontawesome.com/v4.7.0/)
-
+    * For icons
 - [Figma](https://www.figma.com)
-
+    * To draft a wireframe
 - [Am I Responsive](http://ami.responsivedesign.is/)
-
-- [Gitpod](https://www.gitpod.io/)
-
+    * To test responsiveness on all screen sizes
+- [GitHub Pages](https://jonathanuk84.github.io/Resume/.)
+    * Website hosted on GitHub pages
 - [Git](https://git-scm.com/)
-
+    * For version control
 - [GitHub](https://github)
-
+    * Repository hosted on GitHub
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
-
+    * To check site throughout development and inspect
 - [Pingdom](https://tools.pingdom.com/)
-
+    * To test the load time of the page
 - [HTML](https://validator.w3.org/) 
-
+    * To validate my HTML code
 - [CSS validater](https://jigsaw.w3.org/css-validator/validator)
-
+    * To validate my CSS code
 - [HTML formatter](https://www.freeformatter.com/html-formatter.html#ad-output)
+    * To ensure all HTML is formatted correctly 
 
 # Testing 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/)
-
-![CSS Validator](READMEimages/CSSvalidator.PNG)
-
-- [HTML Validator](https://validator.w3.org/)
+- [HTML Validator](https://validator.w3.org/) checked that all of my HTML code is valid.
 
 ![HTML Validator](READMEimages/HTMLvalidator.PNG)
 
-- [Am I Responsive](http://ami.responsivedesign.is/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) checked that all of my CSS code is valid.
+
+![CSS Validator](READMEimages/CSSvalidator.PNG)
+
+- [Am I Responsive](http://ami.responsivedesign.is/) checked that my page is responsive on all screen sizes
+
+![Am I Responsive](READMEimages/AmIResponsive.PNG)
+
+- [Pingdom](https://tools.pingdom.com) checked the load time for my page
+
+![Pingdom](READMEimages/Pingdom.PNG)
+
 - [Chrome Inspect Dev Tools](https://www.google.com/chrome/)
 - Checked all links work correctly
 - Navbar scrolls to the correct part of the page
