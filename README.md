@@ -100,6 +100,10 @@ main hobbies, all of which show my commitment and persiverance.
 
 - [Chrome Inspect Dev Tools](https://www.google.com/chrome/)
 
+- Tested on different browsers
+    * **Internet Explorer** The heading section layout changes when loaded in Internet Explorer, when on small screen sizes the image is too big and scrolls, 
+    on larger screen sizes, the text starts overlapping the portrait photo, this will be rectified in a later update to the page. 
+
 - Checked all links work correctly and open in a seperate page. 
     * The only exceptions are the contact me button in my heading and the links on the phone and email in the about section. These will
     be made functional at a later date. 
