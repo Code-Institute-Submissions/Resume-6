@@ -19,7 +19,7 @@ This website has been designed to act as an online resume in the future when I a
 in HTML and CSS so far.
 
 # User Stories
-Who would use the page and why, how effective is it. 
+The main user for this site would be an employer looking to hire a Junior Web Developer 
 
 # Wireframe
 - [Figma](https://www.figma.com/file/MQpvMBvXZ2Xhp8LNNiGMO6/Untitled?node-id=0%3A1)
@@ -42,11 +42,11 @@ main hobbies, all of which show my commitment and persiverance.
 
 - [Bootstrap](https://getbootstrap.com/)
 
-- [Font Awesome]
+- [Font Awesome](https://fontawesome.com/v4.7.0/)
 
-- [Figma]
+- [Figma](https://www.figma.com)
 
-- [Am I Responsive]
+- [Am I Responsive](http://ami.responsivedesign.is/)
 
 - [Gitpod](https://www.gitpod.io/)
 
@@ -56,6 +56,8 @@ main hobbies, all of which show my commitment and persiverance.
 
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 
+- [Pingdom](https://tools.pingdom.com/)
+
 - [HTML](https://validator.w3.org/) 
 
 - [CSS validater](https://jigsaw.w3.org/css-validator/validator)
@@ -63,10 +65,16 @@ main hobbies, all of which show my commitment and persiverance.
 - [HTML formatter](https://www.freeformatter.com/html-formatter.html#ad-output)
 
 # Testing 
-- [Chrome Inspect Dev Tools](https://www.google.com/chrome/)
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+![CSS Validator](READMEimages/CSSvalidator.PNG)
+
 - [HTML Validator](https://validator.w3.org/)
+
+![HTML Validator](READMEimages/HTMLvalidator.PNG)
+
 - [Am I Responsive](http://ami.responsivedesign.is/)
+- [Chrome Inspect Dev Tools](https://www.google.com/chrome/)
 - Checked all links work correctly
 - Navbar scrolls to the correct part of the page
 - Post code in peer review on slack
