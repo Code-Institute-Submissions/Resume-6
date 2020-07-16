@@ -99,9 +99,18 @@ main hobbies, all of which show my commitment and persiverance.
 ![Pingdom](READMEimages/Pingdom.PNG)
 
 - [Chrome Inspect Dev Tools](https://www.google.com/chrome/)
-- Checked all links work correctly
-- Navbar scrolls to the correct part of the page
+
+- Checked all links work correctly and open in a seperate page. 
+    * The only exceptions are the contact me button in my heading and the links on the phone and email in the about section. These will
+    be made functional at a later date. 
+
+- Checked that the navbar scrolls to the correct part of the page.
+
+- Checked that the back and forward browser buttons work correctly with no errors. 
+
 - Post code in peer review on slack
+    * No responses yet!
+
 
 # Deployment and Demo 
 The project is hosted on GitHub Pages
@@ -136,7 +145,10 @@ It may take a moment for changes to appear on the hosted website.
 During development the site is written in VS Code. It is run using Live Server plugin for VS Code.
 
 # Credits 
-Where images came from
+
+- Images in **work** and **hobbies** taken and edited by myself. 
+
+- Header background image taken from google: https://wallpaperaccess.com/4k-programming
 
 # Acknowlegements 
  
